@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  /*Remove margins of all web frame*/
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: black;
+  align-items: center;
+  flex-wrap: wrap;
+  /*Block the Navbar in the top*/
+  position: sticky;
+  top: 0;
+}
+
+a {
+  margin: 1%;
+  color: rgb(255, 255, 255);
+  flex-wrap: wrap;
+  text-decoration: none;
+  /*Remove the bottom bar of the links*/
+}
+
+a:hover {
+  color: #F2CD00;
+}
+
+#log1 {
+  margin-right: auto;
+}
+
+#log1 img {
+  margin-right: auto;
+  height: 30px;
+}
+
+#log1 img:hover {
+  transform: scale(1.01);
+}
+
+nav button {
+  border: none;
+  border-radius: 2px;
+  color: white;
+  background-color: #111827;
+  border: solid;
+}
+
+nav button:hover {
+  background-color: #054062;
+  transform: scale(1.05);
+}
+
+/*-------------------jumbotron------------------------*/
+.jumbotron {
+
+  display: flex;
+  justify-content: flex-end;
+  background-image: url(Aircraftengine1.jpg);
+  background-size: cover;
+  background-position: center;
+  max-height: fit-content;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  margin: 5%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  color: rgb(255, 255, 255);
+  word-wrap: wrap;
+  /* flex-shrink: 0; */
+  align-items: end;
+  text-shadow: 2px 2px 5px black;
+}
+
+.jumbotron button {
+  border: none;
+  border-radius: 2px;
+  color: #111827;
+  background-color: #F2CD00;
+}
+
+.jumbotron button:hover {
+  background-color: #111827;
+  color: #F2CD00;
+  transform: scale(1.05);
+}
+
+#contacttext {
+  font-size: x-small;
+}
+
+.jumbotron p {
+  text-align: justify;
+}
+
+/*--Product List Title--*/
+#prodlt {
+  display: flex;
+  justify-content: center;
+  color: black;
+  /* border: solid orange; */
+  padding-top: 3%;
+}
+
+/* #prodlt h2 {
+  margin-top: 5%;
+} */
+
+/*-------------------Product List------------------*/
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1% 10% 5% 10%;
+  
+  /* border: solid purple; */
+}
+
+.product-card {
+  flex: 0 0 calc(25% - 5%);
+  background-color: #e8e5e5;
+  font-size: smaller;
+  flex-direction: column;
+  justify-content: space-between;
+  margin:2% 0 2% 0;
+ 
+ 
+  /* border: solid greenyellow; */
+  /* border-radius: 5px; */
+}
+
+.product-card:hover {
+  transform: scale(1.01);
+}
+
+.product-card img {
+  width: 100%;
+  /* border-radius: 5px; */
+  /* object-fit:contain; */
+}
+
+.product-card h3 {
+  text-align: center;
+  color: #054062;
+}
+
+.product-card p {
+  text-align:justify;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #054062;
+  /* border: solid; */
+}
+
+.product-card a{
+  /* border: solid blue; */
+  align-self: flex-end;
+  margin-bottom: auto;
+  margin: 0;
+}
+
+
+.product-card button{
+  margin: 0;
+  width: 100%;
+  color: #111827;
+  background-color: #F2CD00;
+  border: none;
+  padding: 0 0 0 0;
+}
+
+.product-card :last-child:hover {
+  background-color: #111827;
+  color: #F2CD00;
+}
+
+/* @media (max-width: ) */
+
+@media (max-width: 1028px) {
+  .product-card {
+    flex-basis: calc(50% - 10%);
+  }
+}
+
+@media (max-width: 480px) {
+  .product-card {
+    flex-basis: calc(100% - 10%);
+  }
+}
+
+/*-----------------------additionals-------------------------*/
+
+.additionals {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #111827;
+  color: white;
+}
+
+.additionals .img {
+  flex: 1;
+  /* border: solid blue; */
+}
+
+.additionals .text {
+  flex: 3;
+  padding: 5%;
+  /* border: solid orange; */
+  min-width: 250px;
+}
+
+.additionals img {
+  width: 100%;
+  height: 100%;
+  min-width:250px;
+}
+
+button {
+  color: white;
+  background-color: transparent;
+  border: solid white;
+}
+
+.additionals button:hover {
+  background-color: #111827;
+  color: #F2CD00;
+  transform: scale(1.05);
+}
+
+/*----------------------Footer-------------------------*/
+
+footer {
+  justify-content: center;
+  background-color: black;
+  color: white;
+  width: 100%;
+  position: absolute;
+  margin-bottom: 0;
+}
+
+.fcolumns{
+  display: flex;
+  flex-wrap: wrap;
+  /* padding: 1%; */
+  /* border: solid; */
+}
+
+.fcolumn{
+  flex: 0 0 calc(25% - 5%);
+  padding: 5%;
+  line-height: 2;
+  /* border: solid; */
+}
+
+@media (max-width: 768px) {
+  .fcolumn {
+    flex-basis: calc(33.33% - 5%);
+  }
+}
+
+@media (max-width: 480px) {
+  .fcolumn {
+    flex-basis: calc(100% - 5%);
+  }
+}
+.fcolumn a img,
+.fcolumn a svg{
+  /* color: #F2CD00; */
+  /* border: solid; */
+  transform: scale(0.5);
+}
+.fcolumn a img:hover,
+.fcolumn a svg:hover{
+  /* color: #F2CD00; */
+  /* border: solid; */
+  transform: scale(1);
+}
+
+footer .copyr {
+  text-align: center;
+  line-height: 3;
+}
