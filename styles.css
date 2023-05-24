@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  padding: 0;
   /*Remove margins of all web frame*/
 }
 
@@ -12,6 +13,7 @@ nav {
   /*Block the Navbar in the top*/
   position: sticky;
   top: 0;
+  /* border: solid yellow; */
 }
 
 a {
@@ -54,9 +56,9 @@ nav button:hover {
 
 /*-------------------jumbotron------------------------*/
 .jumbotron {
-
+  /* border: solid yellow; */
   display: flex;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
   background-image: url(Aircraftengine1.jpg);
   background-size: cover;
   background-position: center;
@@ -113,6 +115,7 @@ nav button:hover {
 
 /*-------------------Product List------------------*/
 .product-list {
+  /* border: solid yellow; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -224,6 +227,7 @@ nav button:hover {
   flex-wrap: wrap;
   background-color: #111827;
   color: white;
+  /* border: solid yellow; */
 }
 
 .additionals .img {
@@ -265,6 +269,7 @@ footer {
   width: 100%;
   position: absolute;
   margin-bottom: 0;
+  /* border: solid yellow; */
 }
 
 .fcolumns{
@@ -289,7 +294,7 @@ footer {
 
 @media (max-width: 480px) {
   .fcolumn {
-    flex-basis: calc(100% - 5%);
+    flex-basis: calc(100% - 10%);
   }
 }
 .fcolumn a img,
