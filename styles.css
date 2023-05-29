@@ -201,9 +201,10 @@ nav button:hover {
   overflow-x: auto;
 }
 
-.product-card :last-child:hover {
+.product-card button:hover {
   background-color: #111827;
   color: #F2CD00;
+  cursor: pointer;
 }
 
 /* @media (max-width: ) */
