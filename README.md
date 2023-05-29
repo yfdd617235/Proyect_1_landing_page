@@ -1,5 +1,5 @@
-# my-landing
+#Proyecto 1 - Landing page
 
-### Este es mi primer proyecto usando GIT
+#Este es el proyecto # 1 del Bootcamp
 
-noghohi
+#Los archivos principales son "index.html" y "styles.css"
