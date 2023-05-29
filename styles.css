@@ -187,7 +187,7 @@ nav button:hover {
 
 .product-card .img{
   /* border: solid orange; */
-  height: 45%;
+  height: 40%;
 }
 
 .product-card .title{
@@ -197,7 +197,7 @@ nav button:hover {
 
 .product-card .description{
   /* border: solid red; */
-  height: 35%;
+  height: 40%;
   overflow-x: auto;
 }
 
@@ -214,7 +214,7 @@ nav button:hover {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 545px) {
   .product-card {
     flex-basis: calc(100% - 10%);
   }
